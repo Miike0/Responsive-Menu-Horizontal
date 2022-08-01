@@ -3,9 +3,10 @@ body {
     margin: 0;
     padding: 0;
 }
+
 nav {
-    background-color: black;
-    color: white;
+    background-color: #76BA99;
+    color: #876445;
     width: 100%;
 }
 nav .mobile {
@@ -17,8 +18,9 @@ nav .mobile .header{
     align-items: center;
 }
 nav .mobile .header .more button {
+    color: #CA955C;
     border: none;
-    background-color: #00c3ff;
+    background-color: #876445;
     padding: 15px;
     cursor: pointer;
     padding-left: 10px;
@@ -27,14 +29,14 @@ nav .logo {
     min-width: 250px;
 }
 nav a {
-    color: white;
+    color: #876445;
     text-decoration: none;
     display: block;
     padding: 20px 25px;
 }
 nav a:hover {
-    color: black;
-    background-color: #00c3ff;
+    color: #76BA99;
+    background-color: #EDDFB3;
 }
 nav .desktop {
     display: flex;
@@ -61,7 +63,7 @@ nav .desktop .secondary.mini {
         display: block !important;
     }
     nav .secondary.mini .submenu {
-        background-color: black;
+        background-color: #76BA99;
         position: absolute;
         display: none;
         width: 120px;
